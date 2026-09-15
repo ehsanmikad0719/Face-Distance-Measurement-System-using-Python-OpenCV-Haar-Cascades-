@@ -11,10 +11,10 @@ A real-time computer vision application built with Python and OpenCV that estima
 
 ## 📐 How it Works
 The system uses the mathematical principle of triangle similarity to estimate depth:
-$$\text{Distance} = \frac{\text{Real Face Width} \times \text{Focal Length}}{\text{Face Width in Pixels}}$$
+Distance = (Real Face Width × Focal Length) ÷ Face Width in Pixels
 
-* **Average Human Face Width:** Set to a standard $14.0\text{ cm}$.
-* **Focal Length:** Pre-calibrated to $750.0\text{ pixels}$. *Note: For maximum accuracy, you can calibrate this value specifically for your webcam.*
+* **Average Human Face Width:** Set to a standard 14.0 cm
+* **Focal Length:** Pre-calibrated to 750.0pixels. *Note: For maximum accuracy, you can calibrate this value specifically for your webcam.*
 
 ## 📋 Prerequisites
 Ensure you have Python installed on your system along with the `opencv-python` library.
